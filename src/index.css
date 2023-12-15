@@ -1,0 +1,39 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.App button {
+  background-color: #fff;
+  padding: 10px 20px;
+  margin: 5px;
+}
+
+.image {
+  padding: 20px;
+  margin: 50px 0;
+  width: 100px;
+  border: solid 5px red;
+  border-radius: 50%;
+}
+
+.image2 {
+  padding: 20px;
+  margin: 50px 0;
+  width: 100px;
+  border: solid 5px green;
+  border-radius: 50%;
+}
+
+.AppButton button {
+  background-color: #fff;
+  padding: 10px 20px;
+  margin: 5px;
+}
+
+button:hover {
+  scale: 1.5;
+  box-shadow: -10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
